@@ -1,7 +1,5 @@
 import "../scss/style.scss";
 
-const number1 = 400;
-const number2 = 600;
-const total = number1 + number2;
+import sayHello from "./modules/hello";
 
-console.log(total);
+sayHello();
